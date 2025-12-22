@@ -1,0 +1,30 @@
+import subprocess
+from random import randint
+
+def get_response(user_input: str) -> str:
+    lowered = user_input.lower()
+
+    if 'jumco' in lowered:
+        return 'Hello there!'
+    elif 'roll dice' in lowered:
+        return f'You rolled: {randint(1, 6)}'
+    elif 'bro' in lowered:
+        return f'You rolled: {randint(1, 6)}'
+    elif 'wheel' in lowered:
+        print("Attempting to run 'Wheel.py'")
+        try:
+            output = subprocess.check_output(['python', 'C:/Users/chris/PythonBot/Wheel.py'], stderr=subprocess.STDOUT, text=True)
+            print(f"Program output:\n{output}")  # Print output for debugging
+            return f'Program output:\n{output}'
+        except subprocess.CalledProcessError as e:
+            print(f"Error running program: {e.output}")
+            return f'Error running program: {e.output}'
+        except FileNotFoundError:
+            print("Program file not found!")
+            return 'Program file not found!'
+    else:
+        return 'Sorry, I did not understand your request.'
+
+# Example usage:
+response = get_response('run wheel')
+print(response)
