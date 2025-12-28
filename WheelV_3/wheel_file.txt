@@ -1,11 +1,11 @@
 4 48
 Cavey Deeswa Dudwen Goater
-0 Abort yyyn
-0 Among_Us nnyn
-4 Apex dndn
+0 Abort yyyy
+0 Among_Us nnyy
+4 Apex dndy
 0 Ark dndn
 4 Astroneer yyyn
-5 Bluelock yyyy
+5 Bluelock yyyn
 0 Bluestacks ynyn
 4 Brawlhalla nnyn
 0 Business_Tour yyyn
@@ -35,16 +35,16 @@ Cavey Deeswa Dudwen Goater
 0 Osu yyyn
 6 Overwatch dnnn
 0 Party_Games yyyn
-0 Peak yyyd
+0 Peak yyyn
 0 Pixel_Gun ynyn
-4 PP dddd
+4 PP dddn
 0 R6 ynyn
 4 Rain_world ynyn
 0 Ranch yyyn
 0 Roblox yyyn
-0 Rounds yyyy
+0 Rounds yyyn
 0 Shellshock ynyn
 0 Spacewar yydn
 0 Splitgate ynyn
 0 Terererer yyyn
-4 UCH yyyy
+4 UCH yyyn
